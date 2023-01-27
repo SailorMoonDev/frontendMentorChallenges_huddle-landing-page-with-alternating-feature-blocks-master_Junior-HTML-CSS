@@ -38,18 +38,20 @@ main {
   background-image: url(../images/bg-hero-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 1.5rem 7% 2rem;
+  padding: 1.7rem 7% 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 5.7rem;
 }
 
 .logo {
-  height: 1.4rem;
+  height: 1rem;
 }
 
 button {
@@ -58,14 +60,26 @@ button {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
+
+  background-color: var(--pink);
+  color: white;
+  height: 2.7rem;
+  width: 75%;
+  min-width: 255px;
+  max-width: 320px;
 }
 
 #tryItBtn {
   width: 6.5rem;
+  min-width: 6.5rem;
   height: 1.5rem;
   font-size: 0.7rem;
   background-color: white;
   color: var(--veryDarkCyan);
+}
+
+.intro-container{
+    text-align: center;
 }
 
 h1 {
@@ -74,73 +88,103 @@ h1 {
   font-weight: 600;
   line-height: 2.35rem;
   text-align: center;
-  margin-bottom: 1.55rem;
+  margin-bottom: 1.62rem;
 }
 
 .intro-container p{
     text-align: center;
     color: var(--veryDarkCyan);
-    line-height: 1.55rem;
-    max-width: 306px;
+    font-size: 1.07rem;
+    line-height: 1.56rem;
+    max-width: 320px;
     margin: 0 auto;
+    margin-bottom: 2.3rem;
 } 
 
-/* 
+.mockup-img {
+    width: 100%;
+    margin: 3.5rem auto 0;
+  }
 
-.intro-container{
-    width: 85%;
+/* =========== CARDS SECTION =========== */
+
+#cards-section {
+    width: 100%;
+    padding: 1.7rem 5% 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
+    border-radius: 12px;
+    padding: 3.5rem 2.9rem;
+    text-align: center;
+    max-width: 320px;
     margin: 0 auto;
-    padding-top: 1.5rem;
+  }
+  
+  .card img {
+    width: 100%;
+    margin-bottom: 2.9rem;
+  }
+
+  .card h2{
+    color: var(--veryDarkCyan);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+  }
+
+  .card p{
+    font-size: 0.94rem;
+    color: var(--grayishBlue);
+    line-height: 1.45rem;
+  }
+
+/* =========== FOOTER SECTION =========== */
+
+.community
+{
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
+    border-radius: 12px; 
+    text-align: center;
+    padding: 2.6rem 0;
+    width: 95%;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -90px;
 }
 
-.header{
+.community h2{
+    color: var(--veryDarkCyan);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+  }
+
+  .community button{
+    width: 230px;
+  }
+
+  .footer-container
+  {
+    background-color: var(--veryDarkCyan);
+    color: white;
+    padding: 11.5rem 0.8rem 2rem;
+  }
+
+  .footer-address{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 5.7rem;
-}*/
 
-/*
-button{
-    border: none;
-    border-radius: 4rem;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;    
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
-}
+  }
 
-#tryItBtn{
-    width: 6.5rem;
-    height: 1.5rem;
-    font-size: 0.7rem;
-    background-color: white;
-    color: var(--veryDarkCyan);
-}
-
-h1{
-font-family: "Poppins", sans-serif;
-color: var(--veryDarkCyan);
-font-weight: 600;
-line-height: 2.35rem;
-text-align: center;
-margin-bottom: 1.55rem;
-}
-
-.intro-container p{
-    text-align: center;
-    color: var(--veryDarkCyan);
-    line-height: 1.55rem;
-    max-width: 306px;
-    margin: 0 auto;
-} */
-
-.mockup-img {
-  width: 100%;
-}
-
-.card img {
-  width: 100%;
-}
 
 .social-container {
   width: 210px;
