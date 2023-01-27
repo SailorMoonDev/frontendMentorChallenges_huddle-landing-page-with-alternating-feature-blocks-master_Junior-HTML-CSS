@@ -1,0 +1,167 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+/* VARIABLES */
+:root {
+  --white: white;
+  --pink: hsl(322, 100%, 66%);
+  --veryPaleCyan: hsl(193, 100%, 96%);
+  --veryDarkCyan: hsl(192, 100%, 9%);
+  --grayishBlue: hsl(208, 11%, 55%);
+}
+
+/* RESET UNIVERSAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=================================================================================*/
+
+/*============================= MOBILE FIRST DESING =============================*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+main {
+  width: 100%;
+}
+
+/* =========== INTRO SECTION =========== */
+
+#intro-section {
+  width: 100%;
+  background-color: var(--veryPaleCyan);
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1.5rem 7% 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5.7rem;
+}
+
+.logo {
+  height: 1.4rem;
+}
+
+button {
+  border: none;
+  border-radius: 4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
+}
+
+#tryItBtn {
+  width: 6.5rem;
+  height: 1.5rem;
+  font-size: 0.7rem;
+  background-color: white;
+  color: var(--veryDarkCyan);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: var(--veryDarkCyan);
+  font-weight: 600;
+  line-height: 2.35rem;
+  text-align: center;
+  margin-bottom: 1.55rem;
+}
+
+.intro-container p{
+    text-align: center;
+    color: var(--veryDarkCyan);
+    line-height: 1.55rem;
+    max-width: 306px;
+    margin: 0 auto;
+} 
+
+/* 
+
+.intro-container{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5.7rem;
+}*/
+
+/*
+button{
+    border: none;
+    border-radius: 4rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;    
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.097);
+}
+
+#tryItBtn{
+    width: 6.5rem;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    background-color: white;
+    color: var(--veryDarkCyan);
+}
+
+h1{
+font-family: "Poppins", sans-serif;
+color: var(--veryDarkCyan);
+font-weight: 600;
+line-height: 2.35rem;
+text-align: center;
+margin-bottom: 1.55rem;
+}
+
+.intro-container p{
+    text-align: center;
+    color: var(--veryDarkCyan);
+    line-height: 1.55rem;
+    max-width: 306px;
+    margin: 0 auto;
+} */
+
+.mockup-img {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.social-container {
+  width: 210px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* ---- FOOTER ---- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*=================================================================================*/
+/*                                RESPONSIVE DESING                                */
+/*=================================================================================*/
+
+/*============================= >= 1284px  ==================================*/
+
+@media only screen and (min-width: 1284px) {
+}
